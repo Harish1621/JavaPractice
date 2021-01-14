@@ -1,0 +1,63 @@
+package ExampleArray;
+
+public class ExeArray {
+
+	public static void main(String[] args) {
+		int[] a = {-1,-2,-3,-4,-5,-6,-7,-8,-9,-10,-11};
+
+		int[] b = new int[10];
+
+		char[] ch = new char[5];
+		ch[0] = 'a';
+		ch[1] = 'b';
+		ch[2] = 'c';
+		ch[3] = 'd';
+		ch[4] = 'e';
+		for(int i =0; i<ch.length; i++) {
+			System.out.println(ch[i]);
+		}
+
+		String[] st = new String[5];
+		st[0] = "Raj";
+		st[1] = "Manoj";
+		st[2] = "Sai";
+		st[3] = "Mahi";
+		st[4] = "Harish";
+		
+		for(int i =0; i<st.length; i++) {
+			System.out.println(st[i]);
+		}
+
+
+		for(int i=0; i<b.length; i++) { b[i] = 3*i; }
+
+		/*
+		 * for(int i=0; i<b.length; i++) {
+		 * 
+		 * System.out.println(b[i]); }
+		 */
+
+		ExeArray e = new ExeArray();
+		System.out.println(e.high(a));
+		System.out.println(e.low(a));
+		System.out.println(ch);
+	}
+
+	public int high(int[] z) {
+		int i, max = z[0];
+		for (i = 1; i<z.length; i++) {
+			if(z[i] > max) 
+				max = z[i];
+		}
+		return max;
+	}
+
+	public int low(int[] z) {
+		int i, min = z[0];
+		for (i = 1; i<z.length; i++) {
+			if(z[i] < min) 
+				min = z[i];
+		}
+		return min;
+	}
+}

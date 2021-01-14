@@ -1,0 +1,16 @@
+package Lexington;
+
+public class FirmsMain {
+
+	public static void main(String[] args) {
+		
+		Tenents r = new Tenents("Raj", "Microsoft", "FTE", "SD2", 230000);
+		Tenents s = new Tenents("Sai", "Microsoft", "FTE", "SD1", 210000);
+		Tenents c = new Tenents("C.Manoj", "Amazon", "FTE", "SD1", 190000);
+		Tenents b = new Tenents("B.Manoj", "T-Mobile", "FTE", "SA3", 130000);
+		Tenents v = new Tenents("Vikram", "7/11", "FTE", "SD2", 140000);
+		Tenents h = new Tenents("Harish", "T-Mobile", "COC", "SA2", 100000);
+
+	}
+
+}

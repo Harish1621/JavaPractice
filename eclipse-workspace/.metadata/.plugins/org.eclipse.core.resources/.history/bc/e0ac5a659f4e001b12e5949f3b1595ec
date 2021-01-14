@@ -1,0 +1,27 @@
+package Example;
+
+public class Arguments {
+
+	public static void main(String[] args) {
+		Arguments arg  = new Arguments();
+		int a = Integer.parseInt(args[0]);
+		int b = Integer.parseInt(args[1]);
+		int i = 0;
+		
+		switch (args[2]) {
+		case "+": int add = a+b;
+			   System.out.println(add);
+		case "*": int mul = a*b;
+			   System.out.println(mul);
+		case "-": int sub = a-b;
+			   System.out.println(sub);
+		case "/": int div = a/b;
+		       System.out.println(div);
+		case "%": int mod = a%b;
+				 System.out.println(mod);
+		default :
+		 System.out.println("invalid operater");
+		}
+		
+	}
+}

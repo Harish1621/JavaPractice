@@ -1,0 +1,9 @@
+package Example;
+
+public class Armstrong {
+	
+	public static void main(String[] args) {
+		int n, x=0,temp;
+		n = Integer.parseInt(args[0]);
+	}
+}

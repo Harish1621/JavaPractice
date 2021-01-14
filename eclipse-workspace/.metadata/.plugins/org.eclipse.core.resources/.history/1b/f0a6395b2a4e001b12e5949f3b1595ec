@@ -1,0 +1,17 @@
+package Example;
+
+public class Addition {
+
+	public static void main(String[] args) {
+		int n = Integer.parseInt(args[0]);
+		
+		Addition a = new Addition();
+		System.out.println(a.Add(n));
+	}
+	
+	public int Add(int n) {
+		int sum = 0;
+		int x = n*(n+1)/2;
+		return x;
+	}
+}

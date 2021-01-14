@@ -1,0 +1,18 @@
+package Lexington;
+
+public class Tenents {
+	String name;
+	String companyName;
+	String position;
+	String job;
+	int salary;
+	
+	public Tenents(String n, String cn, String p, String j, int s) {
+		name =n;
+		companyName = cn;
+		position = p;
+		job = j;
+		salary = s;
+	}
+	
+}

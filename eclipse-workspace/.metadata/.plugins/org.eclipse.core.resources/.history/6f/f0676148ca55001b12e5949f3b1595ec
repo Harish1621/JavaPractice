@@ -1,0 +1,14 @@
+package ExampleArray;
+
+import java.util.Scanner;
+
+public class Rajexample {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int row, col ;
+		System.out.println("Please enter a integer value for variable: row ");
+		row = scan.nextInt();
+		System.out.println("Please enter a integer value for variable: col ");
+		col = scan.nextInt();
+	}
+}

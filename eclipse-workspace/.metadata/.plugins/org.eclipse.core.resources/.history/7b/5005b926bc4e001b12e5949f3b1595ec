@@ -1,0 +1,35 @@
+package Lexington;
+
+public class FirmsMain {
+
+	public static void main(String[] args) {
+		
+		Tenents r = new Tenents("Raj", "Microsoft", "FTE", "SD2", 8);
+		Tenents s = new Tenents("Sai", "Microsoft", "FTE", "SD1", 7);
+		Tenents c = new Tenents("C.Manoj", "Amazon", "FTE", "SD1", 7);
+		Tenents b = new Tenents("B.Manoj", "T-Mobile", "FTE", "SA3", 6);
+		Tenents v = new Tenents("Vikram", "7/11", "FTE", "SD2", 5);
+		Tenents h = new Tenents("Harish", "T-Mobile", "COC", "SA2", 4);
+		
+		TenentsPositions tp = new TenentsPositions();
+		/*
+		 * tp.jobType(r.name, r.position); tp.jobType(s.name, s.position);
+		 * tp.jobType(c.name, c.position); tp.jobType(b.name, b.position);
+		 * tp.jobType(v.name, v.position); tp.jobType(h.name, h.position);
+		 * System.out.println(); tp.costlyTenent(r.name, r.salary);
+		 * tp.costlyTenent(s.name, s.salary); tp.costlyTenent(c.name, c.salary);
+		 * tp.costlyTenent(b.name, b.salary); tp.costlyTenent(v.name, v.salary);
+		 * tp.costlyTenent(h.name, h.salary); System.out.println(); tp.avgTenent(r.name,
+		 * r.salary); tp.avgTenent(s.name, s.salary); tp.avgTenent(c.name, c.salary);
+		 * tp.avgTenent(b.name, b.salary); tp.avgTenent(v.name, v.salary);
+		 * tp.avgTenent(h.name, h.salary);
+		 */
+		tp.exp(r.name, r.companyName, r.position, r.job, r.exp);
+		tp.exp(s.name, s.companyName, s.position, s.job, s.exp);
+		tp.exp(c.name, c.companyName, c.position, c.job, c.exp);
+		tp.exp(b.name, b.companyName, b.position, b.job, b.exp);
+		tp.exp(v.name, v.companyName, v.position, v.job, v.exp);
+		tp.exp(h.name, h.companyName, h.position, h.job, h.exp);
+	}
+
+}

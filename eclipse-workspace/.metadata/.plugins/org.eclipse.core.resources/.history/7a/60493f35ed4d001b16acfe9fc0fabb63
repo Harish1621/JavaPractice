@@ -1,0 +1,15 @@
+package Example;
+
+public class Armstrong {
+	
+	public static void main(String[] args) {
+		int n, x=0,temp;
+		n = Integer.parseInt(args[0]);
+		temp = n;
+		x = n%10;
+		System.out.println(x);
+		if (n > 0) {
+			
+		}
+	}
+}

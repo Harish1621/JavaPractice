@@ -1,0 +1,21 @@
+package Example;
+
+public class Test {
+	public void test() {
+		int a=0,z,b, x=0,temp;
+		
+		temp = n;
+		while(temp > 0) {
+		z =temp%10;
+		temp = temp/10;
+		a = a+(z*z*z);
+		
+		}
+		
+		if (a == n) {
+			System.out.println("Given number is an Armstrong " + args[0]);
+		} else {
+			System.out.println("Given number is not an Armstrong " + args[0]);
+		}
+	}
+}

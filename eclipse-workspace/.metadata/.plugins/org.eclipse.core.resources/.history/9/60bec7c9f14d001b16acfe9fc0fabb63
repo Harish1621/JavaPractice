@@ -1,0 +1,21 @@
+package Example;
+
+public class Armstrong {
+	
+	public static void main(String[] args) {
+		int n,a,z,b, x=0,temp;
+		n = Integer.parseInt(args[0]);
+		temp = n;
+
+		if (n > 0) {
+			x = temp%10;
+			a = temp/10;
+			z = a%10;
+			b = z%10;
+			System.out.println(x);
+			x = n+(x*x*x);
+			System.out.println(z);
+			System.out.println(b);
+		}
+	}
+}

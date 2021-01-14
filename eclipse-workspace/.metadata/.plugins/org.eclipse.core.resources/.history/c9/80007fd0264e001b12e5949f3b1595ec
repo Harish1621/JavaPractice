@@ -1,0 +1,29 @@
+package Example;
+
+public class Arguments {
+
+	public static void main(String[] args) {
+		Arguments arg  = new Arguments();
+		int a = Integer.parseInt(args[0]);
+		int b = Integer.parseInt(args[1]);
+		int add = a+b;
+		int mul = a*b;
+		int sub = a-b;
+		int div = a/b;
+		int mod = a%b;
+	}
+		public int SumOfArguments () {
+
+			switch () {
+			case add:
+				   System.out.println(a+b);
+				 case 2:
+				   System.out.println("Case2 ");
+				 case 3:
+				   System.out.println("Case3 ");
+				 case 4:
+			           System.out.println("Case4 ");
+			}
+			return 1;
+		}
+}

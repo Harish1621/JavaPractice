@@ -1,0 +1,61 @@
+
+public class HelloWorldDemo {
+	/*
+	 * public HelloWorldDemo(double i, double j) { input1 = i; input2 = j; } public
+	 * HelloWorldDemo() {
+	 * 
+	 * }
+	 */
+	/*
+	 * public static void main(String[] args) {
+	 * 
+	 * int i,j,n; System.out.print("Input number of rows " + args[0]); n =
+	 * Integer.parseInt(args[0]); for(i=0;i<=n;i++) { for(j=1;j<=i;j++)
+	 * System.out.print(i + " "); System.out.println(""); }
+	 * 
+	 * 
+	 * int x = 0,y = 1,sum,n; n = Integer.parseInt(args[0]); for (int i =0; i< n;
+	 * i++) { sum = x+y; x = y; y = sum; System.out.println(x); }
+	 * 
+	 * 
+	 * int n = Integer.parseInt(args[0]); int r = 0; while (n != 0) { int x = n%10;
+	 * if ((r*10+x) == 0){ r = r * 10 + x; n = n/10; System.out.print(r); } else { r
+	 * = r * 10 + x; n = n/10; } } if (Integer.parseInt(args[0]) == r) {
+	 * System.out.println("Given input " + args[0] + " is a palindrome"); } else {
+	 * System.out.println("Given input " + args[0] + " is not a palindrome"); }
+	 * System.out.println(r);
+	 * 
+	 * HelloWorldDemo hello = new HelloWorldDemo();
+	 * 
+	 * System.out.println("Input1 value is :" + hello.input1 + " input2 value is :"
+	 * + hello.input2);
+	 * 
+	 * HelloWorldDemo demo = new HelloWorldDemo(4.5, 8.3);
+	 * System.out.println(demo.input1); System.out.println(demo.input2); }
+	 */
+	/*
+	 * public double additionOfTwo(double a, double b) { double c = a + b; return c;
+	 * }
+	 */
+	/*
+	 * public HelloWorldDemo(int principle, double rate, double time) { principle =
+	 * p;
+	 * 
+	 * }
+	 */
+	/*
+	 * public static void main(String[] args) { double r =
+	 * Double.parseDouble(args[2]); double t = Double.parseDouble(args[1]); int p =
+	 * Integer.parseInt(args[0]); double a = (p)*(r)*(t);
+	 * System.out.println(a/100.0); }
+	 */
+	int p;
+	double i,r,t;
+	public static void main(String[] args) {
+		
+	}
+	public double interest() {
+		return 0.0;
+	}
+	
+}

@@ -1,0 +1,8 @@
+package ExampleArray;
+
+public class ExeArray {
+
+	public static void main(String[] args) {
+		int[] a = new int[10];
+	}
+}

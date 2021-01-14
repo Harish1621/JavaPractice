@@ -1,0 +1,11 @@
+package ExampleArray;
+import java.io.*;
+import java.util.*;
+
+public class Worksheet16 {
+	public static void main(String[] args) throws FileNotFoundException {
+		Scanner myFileReader = new Scanner(new File("arrayData.txt")); 
+		int[] numArray = new int[11];
+		System.out.println(myFileReader);
+	}
+}

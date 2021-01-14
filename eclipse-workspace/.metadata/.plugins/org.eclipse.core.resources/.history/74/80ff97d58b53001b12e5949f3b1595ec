@@ -1,0 +1,30 @@
+package ExampleArray;
+
+public class ExeArray {
+
+	public static void main(String[] args) {
+		int[] a = {1,2,3,4,5,6,7,8,9,10,11};
+		
+		int[] b = new int[10];
+		
+		for(int i=0; i<b.length; i++) { b[i] = 3*i; }
+		
+		/*
+		 * for(int i=0; i<b.length; i++) {
+		 * 
+		 * System.out.println(b[i]); }
+		 */
+		
+		ExeArray e = new ExeArray();
+		System.out.println(e.high(a));
+	}
+	
+	public int high(int[] z) {
+		int i, max = z[0];
+		for (i = 1; i<z.length; i++) {
+			if(z[i] > max) 
+				max = z[i];
+		}
+		return max;
+	}
+}
