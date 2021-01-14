@@ -1,0 +1,13 @@
+package Fruitbusiness;
+
+public class Fruit {
+	int price;
+	String name;
+	String color;
+	
+	public Fruit(int p, String n, String c) {
+		price = p;
+		name = n;
+		color = c;
+	}
+}

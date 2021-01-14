@@ -1,0 +1,12 @@
+package Lexington;
+
+public class TenentsPositions {
+	public void jobType(String tenentName, String tenentPosition) {
+		String FTE = "", COC = "" ;
+		if(tenentPosition == FTE) {
+			System.out.println("All FTE Tenents names: " + tenentName);
+		} else {
+			System.out.println("Only COC Tenents names: "+ tenentName);
+		}
+	}
+}

@@ -1,0 +1,25 @@
+package ExampleArray;
+import java.io.*;
+import java.util.*;
+
+public class Worksheet16 {
+	public static void main(String[] args) throws FileNotFoundException {
+		Scanner myFileReader = new Scanner(new File("arrayData.txt")); 
+		int[] numArray = new int[11];
+		int index = 0;
+		while(myFileReader.hasNextInt()) {
+			numArray[index] = myFileReader.nextInt();
+			index++;
+		}
+		for(int i =0;i<numArray.length;i++) {
+		System.out.println(numArray[i]);
+		}
+		for(int i=0; i<numArray.length;i++) {
+			int negNum = 0;
+			if(numArray[i] >= 0) {
+				negNum++;
+			}
+			System.out.println(negNum);
+		}
+	}
+}

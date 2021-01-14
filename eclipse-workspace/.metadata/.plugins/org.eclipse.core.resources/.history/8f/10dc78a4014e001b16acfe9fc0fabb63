@@ -1,0 +1,24 @@
+package Example;
+
+public class Armstrong {
+	
+	public static void main(String[] args) {
+		Armstrong arm = new Armstrong();
+		arm.Test(153);
+	}
+	public void Test(int n) {
+		int a=0,z,b, x=0,temp;
+		temp = n;
+		while(temp > 0) {
+		z =temp%10;
+		temp = temp/10;
+		a = a+(z*z*z);
+		}
+		
+		if (a == n) {
+			System.out.println("Given number is an Armstrong " + n);
+		} else {
+			System.out.println("Given number is not an Armstrong " + n);
+		}
+	}
+}

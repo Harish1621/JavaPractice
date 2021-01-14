@@ -1,0 +1,8 @@
+package ExampleArray;
+
+public class TwodimArray {
+	public static void main(String[] args) {
+		int[][] numArray2D = new int[4][3];
+		
+	}
+}

@@ -1,0 +1,24 @@
+package Lexington;
+
+public class TenentsPositions {
+	public void jobType(String tenentName, String position) {
+		String FTE = "", COC = "" ;
+		if(position == FTE) {
+			System.out.println("All FTE Tenents names: " + tenentName);
+		} else if (position == COC) {
+			System.out.println("Only COC Tenents names: "+ tenentName);
+		}
+	}
+		public void costlyTenent(String tenentName, int salary) {
+			if(salary > 180000) {
+				System.out.println("Costly salary Tenents names: "+tenentName);
+			} 
+		}
+		
+		public void avgTenent(String tenentName, int salary) {
+			if(salary < 180000) {
+				System.out.println("Avg salary Tenents names: "+tenentName);
+			} 
+		}
+	}
+

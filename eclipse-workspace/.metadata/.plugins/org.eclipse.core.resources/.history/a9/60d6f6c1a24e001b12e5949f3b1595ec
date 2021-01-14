@@ -1,0 +1,7 @@
+package Lexington;
+
+public class TenentsPositions {
+	public void jobType(String tenentName, String tenentPosition) {
+		
+	}
+}
